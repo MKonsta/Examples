@@ -11,11 +11,16 @@ psql -U postgres
 
 cdeate database new_database;
 
-select distinct speciality from developers;
+select distinct specialty from developers;
 
 \c new_database
 
 \d
+
+Создание индекса к одной колонке CREATE INDEX имя_индекса ON имя_таблицы (имя_колонки);
+Создание индекса к нескольким колонкам CREATE INDEX имя_индекса ON имя_таблицы (колонка1, колонка2);
+удаление индекса DROP INDEX имя_индекса;
+
 
 select count (*) from developers;
 
