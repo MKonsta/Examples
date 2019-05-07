@@ -1,0 +1,8 @@
+<hibernate-mapping>
+    <class name="entity.Student">
+        <id name="id" column="ID">
+            <generator class="native"/>
+        </id>
+        <property name="name" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
