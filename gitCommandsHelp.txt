@@ -49,4 +49,4 @@
 
 удалить ветку git branch -D personClassBranch
 
-посмотреть историю изменений git log
+посмотреть историю изменений git log 1
